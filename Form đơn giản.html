@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th colspan="4" style="background-color: orangered;text-align: center">SỞ THÍCH CỦA BẠN</th>
+  </tr>
+  <tr>
+    <td style="text-align: right">Họ và tên</td>
+    <td colspan="3"><input type="text" style="width: 100px"></td>
+  </tr>
+  <tr>
+    <td style="text-align: right">Email</td>
+    <td><input type="text" style="width: 100px"></td>
+  </tr>
+  <tr>
+    <td style="text-align: right">Sở thích</td>
+    <td><input type="checkbox"> Thể thao</td>
+    <td><input type="checkbox"> Âm nhạc</td>
+    <td><input type="checkbox"> Đọc sách</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="checkbox"> Lướt web</td>
+    <td><input type="checkbox"> Chơi game</td>
+    <td><input type="checkbox"> Điện Ảnh</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="checkbox"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><button type="button" onmouseout="mouseout1()" onmouseover="mouseover1()" id="submitbutton" onclick="showmessage()">Gửi thông tin</button></td>
+    <td><button type="reset" onmouseout="mouseout2()" onmouseover="mouseover2()" id="resetbutton">Nhập lại</button></td>
+    <td></td>
+  </tr>
+</table>
+<script src="ButtonScript.js"></script>
+</body>
+</html>
